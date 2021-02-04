@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        
+    <section id="content">
+        <article>
+            <header>
+                  <legend>Formulaire : </legend>
+            </header>
+            <form name="myForm" action="" method="post" onsubmit="return f_myForm()">
+                <label for="titre1">Mr :</label>
+                  <input type="radio" name="Titre" id="titre1" value="Mr"/>
+                        <label for="titre2">Mme :</label>
+                  <input type="radio" name="Titre" id="titre2" value="Mme"/>
+                  <br/>
+                  <label for="statu">Status :</label>
+                  <select size="1" name="Status" id="status">
+                    <optgroup label="CHOICE">
+                        <option value="0">...</option>
+                        <option value="eleves">Élèves</option>
+                        <option value="profs">Professeurs</option>
+                        <option value="tuteurs">Tuteurs</option>
+                        <option value="staffs">Staffs</option>
+                        <option value="admin">Admin</option>
+                    </optgroup>
+                </select>
+                <br/>
+                <label for="nom">Nom :</label>
+                <input type="text" name="Nom" id="nom" maxlength="30" />
+                <br/>
+                <label for="prenom">Prénom :</label>
+                <input type="text" name="Prenom" id="prenom" maxlength="30" />
+                <br/>
+                <label for="adresse">Adresse :</label>
+                <input type="text" name="Adresse" id="adresse" maxlength="30" />
+                <br/>
+                <label for="cp">CP :</label>
+                <input type="number" name="CP" id="cp" maxlength="5" />
+                <br/>
+                <label for="ville">Ville :</label>
+                <input type="text" name="Ville" id="ville" maxlength="30" />
+                <br/>
+                <label for="fix">Fix :</label>
+                <input type="number" name="Fix" id="fix" maxlength="10" />
+                <br/>
+                <label for="mobile">Mobile :</label>
+                <input type="number" name="Mobile" id="mobile" maxlength="10" />
+                <br/>
+                <label for="email">Email :</label>
+                <input type="email" name="Email" id="email" placeholder="xyz@xyz.xyz" maxlength="30" />
+                <br/>
+                <label for="mdp">Mot de passe :</label>
+                <input type="password" name="Mdp" id="mdp" placeholder="**********" maxlength="20" />
+                <br/>
+                <label for="fichier">Image :</label>
+                <input type="file" name="Avatar" id="avatar" />
+                <br/>
+                <label for="commentaire">Commentaire :</label>
+                <textarea cols="24" rows="10" name="Commentaire" id="commentaire"></textarea>
+                <br/>
+                <label for="mdp_lose">Mot de passe oublié :</label>
+                <input type="checkbox" name="Mdp_lose" id="mdp_lose" value="mdpLose" onclick="f_mdp_lose()"/>
+                <br/>
+                <div id="esp_submit_reset">
+                <input type="submit" name="send_connexion" value="Connexion" /><input type="reset" value="Recommencer"/>
+                </div>
+            </form>
+            <footer>
+            </footer>
+        </article>
+    </section>
+<script src="script.js"></script>
+</body>
+</html>
