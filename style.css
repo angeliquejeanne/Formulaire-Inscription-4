@@ -1,0 +1,160 @@
+* 
+{
+    margin: 0; padding: 0;
+}
+:root
+{
+    width:960px;
+    height:100%;
+    margin:0px auto;
+}
+a:link, a:visited, a:hover, a:active 
+{
+    text-decoration:none;
+    margin-left:10px;
+}
+
+body
+{
+    width:960px;
+    background-color: seagreen;
+    margin: 0 auto;
+}
+#content
+{
+    width: 500px;
+    height:800 px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin:-250px 0px 0px -200px;
+    background-color:#7cff02;
+    background-repeat: repeat;
+    border-radius: 5px;
+}
+header
+{
+    float: left;
+    width: 100%;
+    height: 30px;
+}
+nav
+{
+    float: left;
+    width: 842px;
+    height: 94px;
+    margin: 5px 5px;
+}
+footer
+{
+    float: left;
+    width: 100%;
+    height: px;
+}
+form
+{
+    float: left;
+}
+legend
+{
+    float: left;
+    width: auto;
+    margin: 5px 0 10px 175px;
+    font-style: normal;
+    font-size: 22px;
+    color: #000000;
+}
+label
+{
+    float: left;
+    margin: 2px 0px 2px 40px;
+    color:Black;
+    width: 200px;
+}
+label[for="titre1"]
+{
+float: left;
+    margin: 2px 40px 2px 40px;
+    color:Black;
+    width: 50px;
+}
+label[for="titre2"]
+{
+    position: relative;
+    float: left;
+    margin: 2px 40px 2px 40px;
+    color:Black;
+    width: 50px;
+}
+input[type="text"], input[type="number"], input[type="email"],input[type="password"], 
+input[type="time"], input[type="date"], input[type="datetime"], input[type="tel"], select
+{
+    float: right;
+    margin: 2px 40px 2px 0px;
+    padding-left: 10px;
+    border-radius: 5px;
+    width: 200px;
+}
+input[type="file"] 
+{
+    border-radius: 5px 5px 5px 5px;
+    float: right;
+    margin: 2px 26px 2px 0;
+    padding-left: 10px;
+    width: 226px;
+}
+textarea
+{
+    border-radius: 5px 5px 5px 5px;
+    float: right;
+    height: 100px;
+    margin: 2px 40px 2px 0;
+    padding-left: 10px;
+    resize: none;
+    width: 406px;
+}
+input[type="radio"]
+{
+    float: left;
+    margin: 2px 40px 2px 0px;
+    padding-left: 10px;
+    border-radius: 5px;
+    width: 20px;
+}
+select
+{
+    width: 215px;
+}
+input[TYPE="checkbox"]
+{
+    float: left;
+    margin: 5px 0px 2px 10px;
+    padding-left: 0px;
+}
+input[TYPE="SUBMIT"]
+{
+    float: left;
+    margin: 0px 0px 10px 189px;
+    padding: 0px 5px 0px 5px;
+}
+input[TYPE="RESET"],input[TYPE="BUTTON"]
+{
+    float:left;
+    margin: 0px 0px 10px 0px;
+    padding: 0px 5px 0px 5px;
+}
+input[TYPE="SUBMIT"]:hover, input[TYPE="RESET"]:hover,
+input[TYPE="BUTTON"]:hover, textarea:hover
+{
+    float:left;
+    margin: 0px 0px 10px 0px;
+    padding: 0px 5px 0px 5px;
+}
+.bad
+{
+    border: solid 2px red;
+}
+.good
+{
+    border: solid 2px green;
+}
